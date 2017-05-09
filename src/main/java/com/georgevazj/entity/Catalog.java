@@ -2,6 +2,7 @@ package com.georgevazj.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.PersistenceConstructor;
+import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
@@ -13,6 +14,7 @@ public class Catalog {
 
     @Id
     private String id;
+    @Indexed
     private String name;
     private String description;
 

@@ -1,7 +1,6 @@
 package com.georgevazj.repository;
 
 import com.georgevazj.entity.Catalog;
-import com.georgevazj.entity.Item;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;

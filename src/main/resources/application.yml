@@ -1,0 +1,6 @@
+server:
+  port: 3000
+spring:
+  data:
+    mongodb:
+      uri: mongodb://192.168.99.100:27017/shoppinglab
